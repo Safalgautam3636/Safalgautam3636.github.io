@@ -5,8 +5,11 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
-  SiNetlify
+  SiNetlify,
+  SiDocker,
+  SiIos,
 } from "react-icons/si";
+import {DiGit } from "react-icons/di";
 
 const Toolstack = () => {
   return (
@@ -18,13 +21,13 @@ const Toolstack = () => {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+        <SiIos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <DiGit />
       </Col>
     </Row>
   );

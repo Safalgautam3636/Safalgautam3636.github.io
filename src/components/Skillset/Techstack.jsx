@@ -12,7 +12,12 @@ import {
   SiSolidity,
   SiRedux,
   SiMongodb,
-  SiHtml5
+  SiHtml5,
+  SiJava,
+  SiMysql,
+  SiPython,
+  SiExpress,
+  SiTypescript,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -31,22 +36,22 @@ const Techstack = () => {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiTypescript />
       </Col>
     </Row>
   );
